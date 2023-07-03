@@ -1,0 +1,33 @@
+/* relative position */
+.relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+  /*static position  */
+  .static {
+    position: static;
+  }
+  /*fixed position  */
+  .fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  /* absolute position */
+  .parent {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+  /*sticky position  */
+  .sticky {
+    position: sticky;
+    top: 50px;
+  }
+  
+  
